@@ -19,6 +19,10 @@ main {
   background-size: cover;
 }
 
+main header .navMobile {
+  display: none;
+}
+
 main header .logotip {
   position: relative;
   margin-top: 18px;
@@ -29,7 +33,7 @@ main header .logotip .logo {
   float: left;
 }
 
-main header .logotip nav > a {
+main header nav > a {
   font-family: "Museo Sans Cyrl";
   display: block;
   float: left;
@@ -47,31 +51,31 @@ main header .logotip nav > a {
   transition: color 0.5s;
 }
 
-main header .logotip nav > a:hover {
+main header nav > a:hover {
   color: #F8A815;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-main header .logotip nav > a:nth-child(1) {
+main header nav > a:nth-child(1) {
   margin-left: 70px;
 }
 
-main header .logotip nav > a:nth-child(6) {
+main header nav > a:nth-child(6) {
   margin-right: 0;
 }
 
-main header .logotip nav .contact_us {
+main header nav .contact_us {
   position: absolute;
   display: table;
   width: 137px;
   height: 45px;
   left: 1180px;
-  top: 16px;
+  top: 35px;
 }
 
-main header .logotip nav .contact_us a {
+main header nav .contact_us a {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -88,12 +92,16 @@ main header .logotip nav .contact_us a {
   background-color: #F8A815;
 }
 
-main header .logotip nav .contact_us a:hover {
+main header nav .contact_us a:hover {
   border: 1px solid white;
   background: transparent;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+main .contact_us_mobile {
+  display: none;
 }
 
 main .text {
@@ -130,7 +138,9 @@ main .span2 {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  height: 147px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   letter-spacing: -0.04em;
 }
 

@@ -14,11 +14,15 @@ $font_text900: 'Museo Sans Cyrl 900';
       margin: 0;
   }
 main{
+
     background: url("../img/fon1.png");
     width: 100%;
     height: 100vh;
     background-size: cover;
     header {
+        .navMobile{
+            display: none;
+        }
         .logotip{
             position: relative;
             margin-top: 18px;
@@ -26,6 +30,8 @@ main{
                 margin-left: 10%;
                 float: left;
             }
+        }
+
             nav{
                 
                 >a{
@@ -61,7 +67,7 @@ main{
                     width: 137px;
                     height: 45px;
                     left: 1180px;
-                    top: 16px;
+                    top: 35px;
                     a{
                         display: table-cell;
                         text-align: center;
@@ -91,8 +97,11 @@ main{
                     
            }
            
-        }
         
+        
+    }
+    .contact_us_mobile{
+        display: none;
     }
     .text{
         margin-top: 10%;
@@ -126,7 +135,7 @@ main{
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color:white;
-        height: 147px;
+        height: fit-content;
         letter-spacing: -0.04em;
       
       }
