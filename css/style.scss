@@ -1,0 +1,170 @@
+
+$color: #F8A815;
+$font_text: 'Museo Sans Cyrl';
+$font_text900: 'Museo Sans Cyrl 900';
+@font-face{
+    font-family: $font_text900;
+    src: url("fonts/MuseoSansCyrl-900.ttf")
+}
+@font-face{
+    font-family: $font_text;
+    src: url("fonts/MuseoSansCyrl-100.ttf")
+  }
+  body{
+      margin: 0;
+  }
+main{
+    background: url("../img/fon1.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    header {
+        .logotip{
+            position: relative;
+            margin-top: 18px;
+            .logo{
+                margin-left: 10%;
+                float: left;
+            }
+            nav{
+                
+                >a{
+                    font-family: $font_text;
+                    display: block;
+                    float: left;
+                    color: white;
+                    line-height: normal;
+                    font-size: 12px;
+                    letter-spacing: 0.04em;
+                    margin-top: 33px;
+                    margin-left: 55px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    max-width: 96px;
+                    transition: color 0.5s;
+                }
+                >a:hover{
+                    color: $color;
+                    transition: all 0.5s;
+                }
+                >a:nth-child(1){
+                    margin-left: 70px;
+
+                }
+                >a:nth-child(6){
+                    margin-right: 0;
+
+                }
+                .contact_us{
+                    position: absolute;
+                    display: table;
+                    width: 137px;
+                    height: 45px;
+                    left: 1180px;
+                    top: 16px;
+                    a{
+                        display: table-cell;
+                        text-align: center;
+                        vertical-align: middle;
+                        font-family: $font_text;
+                        line-height: 22px;
+                        font-size: 12px;
+                        letter-spacing: 0.04em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        border: 1px solid transparent;
+                        text-decoration: none;
+                        width: 100%;
+                        height: 100%;
+                        background-color: $color;
+                        
+                        
+
+                    } 
+                    a:hover{
+                        border: 1px solid white;
+                        background: transparent;
+                        transition: all 0.5s;
+                    }                
+                                      
+                }
+                    
+           }
+           
+        }
+        
+    }
+    .text{
+        margin-top: 213px;
+        margin-bottom: 0;
+        margin-left: 721px;
+    }
+   .span1{
+        font-family: $font_text900;
+        line-height: normal;
+        font-size: 122px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 900;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: fit-content;
+        height: 147px;
+
+
+    }
+    .span2{
+        font-family: "Arial black";
+        text-transform: uppercase;
+        font-size: 122px;
+        margin-top: -33px;
+        margin-bottom: 0;
+        font-weight: 100;
+        color: #E6E8E6;
+        padding-top: 0;
+        font-stretch: ultra-expanded;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color:white;
+        height: 147px;
+      
+      }
+      p{
+        width: 508px;
+        font-family: $font_text;
+        line-height: 25px;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        color: white;
+      }
+
+.slider{
+    position: absolute;
+    left: 150px;
+    top: 300px;
+li:before {
+    content: "\2B24";
+  }
+li:hover{
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    font-size: 10px;
+    padding: 0;
+    padding-bottom: 30px;
+    color: white;
+        }
+li:nth-child(1){
+    padding: 0;
+    padding-bottom: 30px;
+    color: #F8A815;
+      }
+    }
+
+.clear{
+    clear: both;
+    width: 100%;
+    height: 1px;
+}
+}
