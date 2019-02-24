@@ -1,5 +1,5 @@
 /*Iphone 4*/
-@media screen and (min-device-width: 320px) and (max-device-width: 374px) and (min-device-height: 480px) and (max-device-height: 666px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-device-width: 320px) and (max-device-width: 374px) and (min-device-height: 480px) and (max-device-height: 567px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   #index1 {
     background: url(../img/mobile/fon.png);
     background-size: cover;
@@ -23,6 +23,63 @@
   }
   main .text {
     margin-top: 60.7%;
+    margin-left: 5.6%;
+  }
+  main .text .span1 {
+    font-size: 150px;
+  }
+  main .text .span2 {
+    font-size: 150px;
+  }
+  main .text p {
+    width: 90%;
+    line-height: 1em;
+    font-size: 41px;
+  }
+  main .text .contact_us_mobile {
+    display: table;
+    width: 90%;
+    height: 82px;
+    background: #F8A815;
+  }
+  main .text .contact_us_mobile a {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+
+/*Iphone 5*/
+@media screen and (min-device-width: 320px) and (max-device-width: 374px) and (min-device-height: 568px) and (max-device-height: 666px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #index1 {
+    background: url(../img/mobile/fon.png);
+    background-size: cover;
+  }
+  .contact_us {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  main header .navMobile {
+    display: block;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    right: 108px;
+    top: 40px;
+  }
+  main .slider {
+    display: none;
+  }
+  main .text {
+    margin-top: 85.7%;
     margin-left: 5.6%;
   }
   main .text .span1 {
@@ -111,9 +168,10 @@
   }
 }
 
-@media screen and (min-device-width: 375px) and (min-device-height: 812px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+/*iphone X*/
+@media screen and (min-device-width: 375px) and (max-device-width: 411px) and (min-device-height: 812px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   #index1 {
-    background: url(../img/mobile/fon2.png);
+    background: url(../img/mobile/fon3.png);
     background-size: cover;
   }
   .contact_us {
@@ -134,7 +192,7 @@
     display: none;
   }
   main .text {
-    margin-top: 84.7%;
+    margin-top: 112%;
     margin-left: 5.6%;
   }
   main .text .span1 {
@@ -164,5 +222,59 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+  }
+}
+
+@media screen and (max-device-width: 500px) and (max-device-height: 400px) {
+  main header nav {
+    display: none;
+  }
+  main header .navMobile {
+    display: block;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    right: 108px;
+    top: 40px;
+  }
+  main .slider {
+    display: none;
+  }
+  main .text .span1 {
+    font-size: 100px;
+  }
+  main .text .span2 {
+    font-size: 77px;
+  }
+  main .text p {
+    font-size: 10px;
+    width: 80%;
+  }
+  main .text .contact_us_mobile {
+    display: table;
+    width: 90%;
+    height: 82px;
+    background: #F8A815;
+  }
+  main .text .contact_us_mobile a {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+
+/*desctop 1200*800*/
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  main header nav .contact_us {
+    left: 86%;
+  }
+  main .text {
+    margin-left: 51%;
   }
 }
