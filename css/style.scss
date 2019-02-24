@@ -95,14 +95,14 @@ main{
         
     }
     .text{
-        margin-top: 213px;
+        margin-top: 10%;
         margin-bottom: 0;
-        margin-left: 721px;
+        margin-left: 54%;
     }
    .span1{
         font-family: $font_text900;
         line-height: normal;
-        font-size: 122px;
+        font-size: 132px;
         text-transform: uppercase;
         color: #FFFFFF;
         font-weight: 900;
@@ -127,6 +127,7 @@ main{
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color:white;
         height: 147px;
+        letter-spacing: -0.04em;
       
       }
       p{

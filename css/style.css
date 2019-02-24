@@ -97,15 +97,15 @@ main header .logotip nav .contact_us a:hover {
 }
 
 main .text {
-  margin-top: 213px;
+  margin-top: 10%;
   margin-bottom: 0;
-  margin-left: 721px;
+  margin-left: 54%;
 }
 
 main .span1 {
   font-family: "Museo Sans Cyrl 900";
   line-height: normal;
-  font-size: 122px;
+  font-size: 132px;
   text-transform: uppercase;
   color: #FFFFFF;
   font-weight: 900;
@@ -131,6 +131,7 @@ main .span2 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
   height: 147px;
+  letter-spacing: -0.04em;
 }
 
 main p {
